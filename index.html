@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Set Menu App</title>
+
+    <link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+
+    <h1>Set Menu App</h1>
+
+    <section id="menu">
+        <h2>Menu</h2>
+
+        <h3>Starters</h3>
+        <div class="meal-group starters">
+            <div class="meal-row">
+                <div class="people">
+                    <div class="person">
+                        <input type="radio" name="person1_starters" data-type="starter" class="person person1">
+                    </div>
+                    <div class="person">
+                        <input type="radio" name="person2_starters" data-type="starter" class="person person2">
+                    </div>
+                </div>
+                <span class="meal" data-name="Soup of the day" data-price="£5.50">
+                    <b>Soup of the day</b> <span class="price">£5.50</span>
+                </span>
+            </div>
+            <div class="meal-row">
+                <div class="people">
+                    <div class="person">
+                        <input type="radio" name="person1_starters" data-type="starter" class="person person1">
+                    </div>
+                    <div class="person">
+                        <input type="radio" name="person2_starters" data-type="starter" class="person person2">
+                    </div>
+                </div>
+                <span class="meal" data-name="Prawn cocktail" data-price="£7.50">
+                    <b>Prawn cocktail</b> <span class="price">£7.50</span>
+                </span>
+            </div>
+            <div class="meal-row">
+                <div class="people">
+                    <div class="person">
+                        <input type="radio" name="person1_starters" data-type="starter" class="person person1">
+                    </div>
+                    <div class="person">
+                        <input type="radio" name="person2_starters" data-type="starter" class="person person2">
+                    </div>
+                </div>
+                <span class="meal" data-name="Bruscetta" data-price="£7.50">
+                    <b>Bruscetta</b> <span class="price">£7.50</span>
+                </span>
+            </div>
+        </div>
+
+        <h3>Mains</h3>
+        <div class="meal-group mains">
+            <div class="meal-row">
+                <div class="people">
+                    <div class="person">
+                        <input type="radio" name="person1_mains" data-type="main" class="person person1">
+                    </div>
+                    <div class="person">
+                        <input type="radio" name="person2_mains" data-type="main" class="person person2">
+                    </div>
+                </div>
+                <span class="meal" data-name="Steak" data-price="£3.50">
+                    <b>Steak</b> <span class="price">£3.50</span>
+                </span>
+            </div>
+            <div class="meal-row">
+                <div class="people">
+                    <div class="person">
+                        <input type="radio" name="person1_mains" data-type="main" class="person person1">
+                    </div>
+                    <div class="person">
+                        <input type="radio" name="person2_mains" data-type="main" class="person person2">
+                    </div>
+                </div>
+                <span class="meal" data-name="Meatballs" data-price="£13.50">
+                    <b>Meatballs</b> <span class="price">£13.50</span>
+                </span>
+            </div>
+            <div class="meal-row">
+                <div class="people">
+                    <div class="person">
+                        <input type="radio" name="person1_mains" data-type="main" class="person person1">
+                    </div>
+                    <div class="person">
+                        <input type="radio" name="person2_mains" data-type="main" class="person person2">
+                    </div>
+                </div>
+                <span class="meal" data-name="Salmon fillet" data-price="£13.50">
+                    <b>Salmon fillet</b> <span class="price">£13.50</span>
+                </span>
+            </div>
+        </div>
+
+        <h3>Desserts</h3>
+        <div class="meal-group desserts">
+            <div class="meal-row">
+                <div class="people">
+                    <div class="person">
+                        <input type="radio" name="person1_desserts" data-type="dessert" class="person person1">
+                    </div>
+                    <div class="person">
+                        <input type="radio" name="person2_desserts" data-type="dessert" class="person person2">
+                    </div>
+                </div>
+                <span class="meal" data-name="Custard" data-price="£4.50">
+                    <b>Custard</b> <span class="price">£4.50</span>
+                </span>
+            </div>
+            <div class="meal-row">
+                <div class="people">
+                    <div class="person">
+                        <input type="radio" name="person1_desserts" data-type="dessert" class="person person1">
+                    </div>
+                    <div class="person">
+                        <input type="radio" name="person2_desserts" data-type="dessert" class="person person2">
+                    </div>
+                </div>
+                <span class="meal" data-name="Sticky toffee pudding" data-price="£34.50">
+                    <b>Sticky toffee pudding</b> <span class="price">£34.50</span>
+                </span>
+            </div>
+            <div class="meal-row">
+                <div class="people">
+                    <div class="person">
+                        <input type="radio" name="person1_desserts" data-type="dessert" class="person person1">
+                    </div>
+                    <div class="person">
+                        <input type="radio" name="person2_desserts" data-type="dessert" class="person person2">
+                    </div>
+                </div>
+                <span class="meal" data-name="Chocolate cheesecake" data-price="£1.01">
+                    <b>Chocolate cheesecake</b> <span class="price">£1.01</span>
+                </span>
+            </div>
+        </div>
+
+        <h2 class="total-container">
+            <b>Total:</b>
+            <span class="total">£0</span>
+        </h2>
+
+        <h4 class="error-container"></h4>
+    </section>
+
+    <script src="js/src/jquery.js"></script>
+    <script src="js/src/calculateNewTotal.js"></script>
+    <script src="js/src/validatePersonsMeals.js"></script>
+    <script src="js/src/validateAllMeals.js"></script>
+    <script src="js/src/app.js"></script>
+
+</body>
+</html>
